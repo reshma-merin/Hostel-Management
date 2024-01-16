@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="main">
+        <div class = "navbar">
+            <div class="icon">
+                <h2 class="logo">HOSTEL DATABASE MANAGEMENT SYSTEM</h2>
+            </div>
+
+            <div class="'menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICE</a></li>
+                    <li><a href="#">DESIGN</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="login-box">
+               
+                <h1>Login Here</h1>
+                <form>
+                    <p>email</p>
+                    <input type="text" name="E-Mail" placeholder="Enter email">
+                    <p>password</p>
+                    <input type="password" name="password" placeholder="Enter Password">
+                    <input type="submit" name="submit" value="Login">
+
+                </form>
+            </div>
+            <script>
+                function func(){
+                var email = document.getElementById("email").value;
+                var email = document.getElementById("password").value;
+                if (email== "admin@gmail.com" && password=="123"){
+                    alert("Successful Login!")
+                    window.location.assign(admin.html)
+                }
+                else if (email== "stud@gmail.com" && password=="456") {
+                    alert("Successful Login!")
+                    window.location.assign("stud.html")
+                }
+                else{
+                    alert("Unauthorised Login")
+                }
+            </script>
+
+            
+        
+        </div>
+    </div>
+</body>
+
+    
+			
